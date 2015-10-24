@@ -32,7 +32,7 @@
 	- gulp-htmlmin to minify the HTML.  
 
 
-###Optimizations performed to create pizza.html 60 FPS
+###Optimizations performed to fix resizing time and framerate in pizza.html
 - In changePizzaSizes:  
 	- The determineDx function is entirely removed, since that calculated percentages in an extremely roundabout way. Instead, I assign percentages in a more direct way.  
 	- randomPizzaContainers is defined once with document.getElementsByClassName("randomPizzaContainer"), outside of the for loop, instead of inside the loop.  
