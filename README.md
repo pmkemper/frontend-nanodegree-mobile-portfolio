@@ -20,7 +20,7 @@
 
 ###Optimizations performed to optimize index.html
 
-- The Open Sans woff2 fonts were converted to base64 strings and inserted directly into the css file.  
+- The Open Sans woff2 fonts were converted to base64 strings and inserted directly into the css file as data URLs.
 - The pizzeria.jpg image was reduced in dimensions on the index.html page to create pizzeria-resized.jpg.  
 - The Google Analytics script was made async.  
 - The print CSS was made non-critical by adding the media="print" query.  
